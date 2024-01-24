@@ -1,6 +1,6 @@
 # Home Assistant Auth-Cookie
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration) ![Total downloads](https://img.shields.io/github/downloads/leshniak/hass-auth-token/total?label=Total%20downloads)
+![Total downloads](https://img.shields.io/github/downloads/leshniak/hass-auth-token/total)
 
 Copies Home Assistant access token to a cookie, so you can use an existing authorization result for other subpages or services.
 
