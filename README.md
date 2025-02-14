@@ -20,7 +20,7 @@ Useful for **zigbee2mqtt**, **frigate** or **go2rtc** panels in a dockerized set
 <details>
   <summary><b>Manual installation:</b></summary>
   
-1. Copy [swipe-navigation.js](https://github.com/zanna-37/hass-swipe-navigation/releases/latest) from the latest release into `/www/hass-auth-cookie/`
+1. Copy [hass-auth-cookie.js](https://raw.githubusercontent.com/leshniak/hass-auth-cookie/refs/heads/main/hass-auth-cookie.js) from the latest release into `/www/hass-auth-cookie/`
 
 2. Add the resource in `ui-lovelace.yaml` or in Dashboard Resources.
 
