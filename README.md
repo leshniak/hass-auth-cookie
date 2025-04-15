@@ -1,6 +1,6 @@
 # Home Assistant Auth-Cookie
 
-![Total downloads](https://img.shields.io/github/downloads/leshniak/hass-auth-token/total)
+![Total downloads](https://img.shields.io/github/downloads/leshniak/hass-auth-cookie/total)
 
 Copies Home Assistant access token to a cookie, so you can use an existing authorization result for other subpages or services.
 
@@ -35,6 +35,9 @@ resources:
 </details>
 
 ## Usage
+> [!NOTE]
+> It won't work if you enter Home Assistant directly, without proxying by nginx!
+
 After an installation, use `hass_access_token` cookie to get the authorization result from [Home Assistant API](https://developers.home-assistant.io/docs/api/rest/). For example, in a dockerized setup, you can use a [`ngx_http_auth_request_module`](https://nginx.org/en/docs/http/ngx_http_auth_request_module.html) from nginx to perform a subrequest, that will secure another proxied service.
 
 **nginx config snippet:**
